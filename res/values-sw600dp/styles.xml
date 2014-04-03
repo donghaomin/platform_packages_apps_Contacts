@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <style name="PeopleTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="PeopleTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_menu_back</item>
         <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflow</item>
@@ -58,7 +58,7 @@
         <item name="favorites_padding_bottom">0dip</item>
     </style>
 
-    <style name="ContactPickerTheme" parent="@android:Theme.Holo.Light.Dialog">
+    <style name="ContactPickerTheme" parent="@android:Theme.Holo.Dialog">
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="list_item_height">?android:attr/listPreferredItemHeight</item>
@@ -110,7 +110,7 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
 
-    <style name="NonPhoneDialogTheme" parent="@android:Theme.Holo.Light.Dialog">
+    <style name="NonPhoneDialogTheme" parent="@android:Theme.Holo.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
